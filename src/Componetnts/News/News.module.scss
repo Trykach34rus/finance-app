@@ -1,0 +1,63 @@
+.root {
+	width: 400px;
+	height: 100%;
+	background-color: #1d1d41;
+	border-radius: 20px;
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+	align-items: center;
+	margin-left: 10px;
+	padding: 10px;
+}
+.title {
+	font-size: 25px;
+	color: white;
+	margin-bottom: 10px;
+}
+.articlesContainer {
+	width: 100%;
+	height: 100%;
+	overflow-y: auto;
+	padding-right: 10px;
+}
+.articlesContainer::-webkit-scrollbar {
+	width: 8px;
+}
+.articlesContainer::-webkit-scrollbar-track {
+	background: #2d2d5a;
+}
+.articlesContainer::-webkit-scrollbar-thumb {
+	background: #4c4c7f;
+	border-radius: 10px;
+}
+.articlesContainer::-webkit-scrollbar-thumb:hover {
+	background: #6a6a9f;
+}
+
+.articlesContainer {
+	scrollbar-width: thin;
+	scrollbar-color: #4c4c7f #2d2d5a;
+}
+.article {
+	width: 100%;
+	margin-bottom: 15px;
+	padding: 10px;
+	background-color: #2d2d5a;
+	border-radius: 10px;
+	color: white;
+}
+.moreNewsButton {
+	width: 160px;
+	height: 40px;
+	border-radius: 10px;
+	background-color: hsla(150, 98%, 35%, 1);
+	border: none;
+	cursor: pointer;
+	margin-top: 10px;
+	color: white;
+	font-size: 23px;
+	&:hover {
+		background-color: hsla(0, 84%, 49%, 1);
+	}
+}

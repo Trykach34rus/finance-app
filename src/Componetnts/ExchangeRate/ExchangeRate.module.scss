@@ -1,0 +1,22 @@
+.root {
+	width: 400px;
+	height: 100%;
+	background-color: #1d1d41;
+	border-radius: 20px;
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+	align-items: center;
+	padding: 10px;
+	p {
+		font-size: 25px;
+		color: white;
+	}
+	li {
+		width: 350px;
+		height: 30px;
+		margin: 5px;
+		font-size: 25px;
+		color: white;
+	}
+}

@@ -1,0 +1,139 @@
+.root {
+	font-family: General Sans Variable;
+	width: 374px;
+	height: 433px;
+	background-color: #1d1d41;
+	color: white;
+	margin-top: 26px;
+	border-radius: 20px;
+	display: flex;
+	flex-direction: column;
+	padding-left: 19px;
+	.title {
+		font-weight: 600;
+		font-size: 24px;
+	}
+	.cardsBalansTitle {
+		font-weight: 400;
+		font-size: 16px;
+		color: hsla(244, 22%, 62%, 1);
+		margin-top: 0px;
+	}
+	.cardsBalans {
+		font-weight: 600;
+		font-size: 24px;
+		margin-top: -15px;
+	}
+	.cardContainer {
+		width: 326px;
+		height: 184px;
+		border-radius: 20px;
+		font-family: Cera Pro;
+		background-color: hsla(244, 77%, 63%, 1);
+		display: flex;
+		flex-direction: column;
+		padding-left: 19px;
+	}
+	.nameAndLogo {
+		display: flex;
+		align-items: center;
+		flex-direction: row;
+	}
+	.balansAndBanckName {
+		width: 300px;
+		height: 40px;
+		display: flex;
+		align-items: center;
+		font-size: 25px;
+		margin-top: -15px;
+	}
+	.banckName {
+		margin-left: 40px;
+	}
+	.numberAndDate {
+		width: 305px;
+		height: 80px;
+		background-color: #1d1d41;
+		display: flex;
+		flex-direction: column;
+	}
+
+	.cardDetails {
+		width: 100%;
+		height: 13px;
+		display: flex;
+		align-items: center;
+	}
+	.cardNumber {
+		width: 300px;
+		height: 20px;
+		font-size: 20px;
+		display: flex;
+		align-items: center;
+		margin: 5px;
+	}
+	.cardDateContainer {
+		height: 70px;
+		width: 300px;
+		display: flex;
+		flex-direction: row;
+		align-items: flex-start;
+	}
+	.cardDate {
+		width: 32px;
+		height: 10px;
+		display: flex;
+		align-items: center;
+		flex-direction: row;
+		margin-left: 135px;
+		margin-top: 15px;
+	}
+	.cardDateMonth,
+	.cardDateYear {
+		font-size: 20px;
+	}
+	.cardholderName {
+		margin-left: 30px;
+	}
+	.cardManufacturingCompany {
+		height: 45px;
+		width: 80px;
+		margin-top: 12px;
+		margin-left: 50px;
+	}
+	.buttons {
+		width: 300px;
+		height: 30px;
+		margin-left: 15px;
+		margin-top: 10px;
+	}
+	.buttonNext,
+	.buttonLast {
+		width: 130px;
+		height: 30px;
+		background-color: hsla(244, 77%, 63%, 1);
+		font-size: 20px;
+		color: white;
+		&:hover {
+			background-color: #28a745;
+		}
+	}
+
+	.buttonLast {
+		margin-left: 40px;
+		&:hover {
+			background-color: hsla(0, 84%, 49%, 1);
+		}
+	}
+	.button {
+		width: 299px;
+		height: 48px;
+		border-radius: 10px;
+		background-color: hsla(244, 77%, 63%, 1);
+		margin-left: 15px;
+		margin-top: 10px;
+		color: white;
+		font-size: 20px;
+		border: none;
+	}
+}

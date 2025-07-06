@@ -1,0 +1,120 @@
+.root {
+	position: relative;
+	.modal {
+		position: fixed;
+		left: 0;
+		top: 0;
+		z-index: 100;
+		background: rgba(0, 0, 0, 0.7);
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		width: 100%;
+		height: 100%;
+		opacity: 0;
+		visibility: hidden;
+		transition: all 0.3s ease;
+		&.open {
+			opacity: 1;
+			visibility: visible;
+		}
+	}
+	.modalContent {
+		background-color: #141332;
+		padding: 30px;
+		color: white;
+		border-radius: 10px;
+		box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+		width: 400px;
+		height: 600px;
+		display: flex;
+		align-items: center;
+		flex-direction: column;
+	}
+	.closeButton,
+	.addButton {
+		width: 150px;
+		height: 40px;
+		border-radius: 10px;
+		background-color: hsla(150, 98%, 35%, 1);
+		border: none;
+		cursor: pointer;
+		color: white;
+		font-size: 23px;
+		&:hover {
+			background-color: hsla(0, 84%, 49%, 1);
+		}
+	}
+	.title {
+		font-size: 25px;
+		color: white;
+	}
+	input {
+		width: 100%;
+		padding: 10px;
+		margin-bottom: 15px;
+		color: white;
+		border: 1px solid #ccc;
+		border-radius: 5px;
+		font-size: 16px;
+		background-color: hsla(244, 77%, 63%, 1);
+		transition: border-color 0.3s;
+		&:focus {
+			border-color: #007bff;
+			outline: none;
+		}
+		::placeholder {
+			color: white;
+		}
+	}
+	::-webkit-input-placeholder {
+		color: white;
+	}
+	::-moz-placeholder {
+		color: white;
+	}
+	:-ms-input-placeholder {
+		color: white;
+	}
+	:-moz-placeholder {
+		color: white;
+	}
+	.buttonContainer {
+		margin-top: auto;
+		display: flex;
+		flex-direction: row;
+		gap: 15px;
+	}
+	.activitysContainer {
+		display: flex;
+		flex-direction: column;
+		gap: 5px;
+		margin-top: 10px;
+	}
+	.activitys {
+		width: 315px;
+		height: 50px;
+		display: flex;
+		flex-direction: row;
+		align-items: center;
+	}
+	.activityImg {
+		width: 50px;
+		height: 50px;
+		border: none;
+		outline: none;
+		border-radius: 10px;
+		background-color: #28a745;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		&:hover {
+			background-color: #dc3545;
+		}
+	}
+	.activityTitle {
+		font-size: 20px;
+		color: white;
+		margin: 15px;
+	}
+}

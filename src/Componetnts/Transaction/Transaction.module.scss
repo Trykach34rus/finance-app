@@ -1,0 +1,59 @@
+.root {
+	width: 668px;
+	height: 362px;
+	background-color: #1d1d41;
+	color: white;
+	margin-top: 26px;
+	border-radius: 20px;
+	padding: 20px;
+	box-shadow: 0 4px 20px rgba(0, 0, 0, 0.5);
+	overflow-y: auto;
+}
+.title {
+	font-size: 24px;
+	margin-bottom: 20px;
+}
+.transactionList {
+	list-style: none;
+	padding: 0;
+}
+.transactionItem {
+	display: flex;
+	justify-content: space-between;
+	padding: 10px 0;
+	font-size: 18px;
+	margin-bottom: 10px;
+	border-radius: 15px;
+	height: 40px;
+	overflow: hidden;
+}
+.income {
+	background-color: rgb(23, 167, 23);
+}
+.outcome {
+	background-color: rgba(239, 4, 4);
+}
+.amount,
+.description,
+.date {
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
+.amount {
+	margin-right: 10px;
+	width: 200px;
+	display: flex;
+	justify-content: flex-end;
+}
+.description {
+	color: white;
+	margin-left: 10px;
+	flex-grow: 1;
+	width: 200px;
+}
+.date {
+	margin: 0 10px;
+	color: white;
+	flex-grow: 1;
+}

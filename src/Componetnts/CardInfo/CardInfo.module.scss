@@ -1,0 +1,103 @@
+.root {
+	width: 100%;
+	height: 400px;
+	background-color: #1d1d41;
+	border-radius: 20px;
+	display: flex;
+	align-items: center;
+	flex-direction: row;
+	justify-content: center;
+	color: white;
+	padding: 10px;
+	.setingsButton {
+		width: 150px;
+		height: 40px;
+		border-radius: 10px;
+		background-color: hsla(150, 98%, 35%, 1);
+		border: none;
+		cursor: pointer;
+		margin-top: auto;
+		margin-left: 50px;
+	}
+	.cardContainer {
+		width: 480px;
+		height: 300px;
+		border-radius: 20px;
+		font-family: Cera Pro;
+		background-color: hsla(244, 77%, 63%, 1);
+		display: flex;
+		flex-direction: column;
+		padding-left: 19px;
+	}
+	.nameAndLogo {
+		display: flex;
+		align-items: center;
+		flex-direction: row;
+		font-size: 30px;
+	}
+	.balansAndBanckName {
+		width: 300px;
+		height: 40px;
+		display: flex;
+		align-items: center;
+		font-size: 40px;
+		margin-top: -15px;
+	}
+	.banckName {
+		margin-left: 100px;
+	}
+	.numberAndDate {
+		width: 305px;
+		height: 80px;
+		background-color: #1d1d41;
+		display: flex;
+		flex-direction: column;
+	}
+
+	.cardDetails {
+		width: 100%;
+		height: 13px;
+		display: flex;
+		align-items: center;
+	}
+	.cardNumber {
+		width: 300px;
+		height: 20px;
+		font-size: 30px;
+		display: flex;
+		align-items: center;
+		margin-top: 30px;
+		margin-left: 40px;
+	}
+	.cardDateContainer {
+		height: 70px;
+		width: 300px;
+		display: flex;
+		flex-direction: row;
+		align-items: flex-start;
+	}
+	.cardDate {
+		width: 32px;
+		height: 10px;
+		display: flex;
+		align-items: center;
+		flex-direction: row;
+		margin-left: 135px;
+		margin-top: 15px;
+	}
+	.cardDateMonth,
+	.cardDateYear {
+		font-size: 30px;
+		margin-top: 50px;
+	}
+	.cardholderName {
+		margin-left: 30px;
+		font-size: 30px;
+	}
+	.cardManufacturingCompany {
+		height: 45px;
+		width: 80px;
+		margin-top: 12px;
+		margin-left: 170px;
+	}
+}

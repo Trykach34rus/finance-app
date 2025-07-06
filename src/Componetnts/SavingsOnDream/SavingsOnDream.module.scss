@@ -1,0 +1,41 @@
+.root {
+	width: 400px;
+	height: 100%;
+	background-color: #1d1d41;
+	border-radius: 20px;
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+	align-items: center;
+	margin-left: 10px;
+	padding: 10px;
+	.title {
+		font-size: 25px;
+		color: white;
+	}
+	.addDream {
+		width: 250px;
+		height: 40px;
+		border-radius: 10px;
+		background-color: hsla(150, 98%, 35%, 1);
+		border: none;
+		cursor: pointer;
+		margin-top: auto;
+		color: white;
+		font-size: 23px;
+		&:hover {
+			background-color: hsla(0, 84%, 49%, 1);
+		}
+	}
+	.selectedDream {
+		width: 80%;
+		height: 30px;
+		display: flex;
+		flex-direction: row;
+		align-items: center;
+		gap: 12px;
+		font-size: 25px;
+		color: white;
+		padding: 25px;
+	}
+}

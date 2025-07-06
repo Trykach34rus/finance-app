@@ -1,0 +1,114 @@
+.root {
+	position: relative;
+	.modal {
+		position: fixed;
+		left: 0;
+		top: 0;
+		z-index: 100;
+		display: flex;
+		justify-content: flex-end;
+		align-items: center;
+		width: 100%;
+		height: 100%;
+		opacity: 0;
+		visibility: hidden;
+		transition: all 0.3s ease;
+		&.open {
+			opacity: 1;
+			visibility: visible;
+		}
+	}
+	.modalContent {
+		background-color: #141332;
+		padding: 30px;
+		color: white;
+		border-radius: 10px;
+		box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+		width: 400px;
+		height: 600px;
+	}
+	.consultantContainer {
+		width: 350px;
+		height: 70px;
+		background-color: #1d1d41;
+		border-radius: 10px;
+		color: black;
+		display: flex;
+		flex-direction: row;
+		padding: 10px;
+	}
+	.consultantFoto {
+		background-color: black;
+		width: 50px;
+		height: 50px;
+		border-radius: 50%;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		margin-right: 10px;
+	}
+	.nameAndStatys {
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		h4 {
+			color: white;
+			margin: 0;
+		}
+		h5 {
+			margin: 0;
+			font-size: 15px;
+			color: gray;
+		}
+	}
+	.massageContainer {
+		width: 350px;
+		height: 380px;
+		overflow-y: auto;
+		margin-bottom: 10px;
+		background-color: #1d1d41;
+		margin-top: 10px;
+		border-radius: 10px;
+	}
+	.message {
+		background-color: #1d1d41;
+		padding: 10px;
+		border-radius: 5px;
+		margin: 5px 0;
+	}
+	.inputContainer {
+		display: flex;
+	}
+	.input {
+		flex-grow: 1;
+		padding: 10px;
+		border-radius: 5px;
+		border: 1px solid #ccc;
+		margin-right: 10px;
+	}
+	.sendButton {
+		background-color: #4caf50;
+		color: white;
+		border: none;
+		padding: 10px;
+		border-radius: 5px;
+		cursor: pointer;
+		transition: background-color 0.3s;
+		&:hover {
+			background-color: #45a049;
+		}
+	}
+	.close {
+		margin-top: 10px;
+		background-color: #ff4d4d;
+		color: white;
+		border: none;
+		border-radius: 5px;
+		padding: 10px;
+		cursor: pointer;
+		transition: background-color 0.3s;
+		&:hover {
+			background-color: #e60000;
+		}
+	}
+}

@@ -1,0 +1,19 @@
+.root {
+	width: 374px;
+	height: 415px;
+	background-color: #1d1d41;
+	color: white;
+	border-radius: 20px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	.title {
+		font-size: 24px;
+		font-weight: bold;
+	}
+	.chartСontainer {
+		height: 250px;
+		width: 100%;
+	}
+}
